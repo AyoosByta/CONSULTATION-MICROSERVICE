@@ -1,0 +1,49 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.bytatech.ayoos.consultation",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.6.0",
+    "applicationType": "microservice",
+    "baseName": "consultation",
+    "packageName": "com.bytatech.ayoos.consultation",
+    "packageFolder": "com/bytatech/ayoos/consultation",
+    "serverPort": "8090",
+    "authenticationType": "oauth2",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "N2NjODM0ODMwYjIwMDU4NDgwM2UzZjA4NjdjODI5NWY1YzhhNGU2OWRjMTE3N2MyM2JhZDE3ZmVjNGFiMmE1MTUzZGU0ODM3ZTA4MDllZGJjYjdmMjBjZTllY2RmYmMzMjI3YzhjMzlmYjlhYTgzYmY0YmU2MmI3MGFiOGQ5ZDQ=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1579760048888,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "generator-jhipster-swagger-cli": {
+    "promptValues": {
+      "inputSpec": "/home/ajay/Downloads/alfresco-core.json",
+      "cliName": "dms"
+    }
+  }
+}
