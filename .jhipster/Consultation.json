@@ -1,0 +1,64 @@
+{
+    "name": "Consultation",
+    "fields": [
+        {
+            "fieldName": "trackingId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "patientIdpCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "date",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "phoneNumber",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "prescription",
+            "otherEntityRelationshipName": "consultation",
+            "relationshipName": "prescription",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "diagnosis",
+            "otherEntityRelationshipName": "consultation",
+            "relationshipName": "diagnosis",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "basicCheckUp",
+            "otherEntityRelationshipName": "consultation",
+            "relationshipName": "basicCheckUp",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "symptom",
+            "otherEntityRelationshipName": "consultation",
+            "relationshipName": "symptom"
+        }
+    ],
+    "changelogDate": "20200127061748",
+    "entityTableName": "consultation",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "consultation",
+    "applications": "*",
+    "microserviceName": "consultation"
+}

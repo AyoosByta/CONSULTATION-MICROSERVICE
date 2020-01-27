@@ -1,0 +1,21 @@
+{
+    "name": "Diagnosis",
+    "fields": [
+        {
+            "fieldName": "diagnosisRef",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200127061749",
+    "entityTableName": "diagnosis",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "consultation",
+    "applications": "*",
+    "microserviceName": "consultation"
+}
