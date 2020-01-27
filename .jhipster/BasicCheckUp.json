@@ -1,0 +1,37 @@
+{
+    "name": "BasicCheckUp",
+    "fields": [
+        {
+            "fieldName": "height",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "weight",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "temperature",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "bp",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "checkUpStatus",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200127061752",
+    "entityTableName": "basic_check_up",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "consultation",
+    "applications": "*",
+    "microserviceName": "consultation"
+}

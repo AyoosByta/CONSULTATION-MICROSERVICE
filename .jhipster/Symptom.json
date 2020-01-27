@@ -1,0 +1,29 @@
+{
+    "name": "Symptom",
+    "fields": [
+        {
+            "fieldName": "symptomRef",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "consultation",
+            "otherEntityRelationshipName": "symptom",
+            "relationshipName": "consultation",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200127061750",
+    "entityTableName": "symptom",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "consultation",
+    "applications": "*",
+    "microserviceName": "consultation"
+}

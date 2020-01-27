@@ -1,0 +1,37 @@
+{
+    "name": "ParamedicalExamination",
+    "fields": [
+        {
+            "fieldName": "bp",
+            "javadoc": "@deprecated bp",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "height",
+            "javadoc": "@deprecated height",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "weight",
+            "javadoc": "@deprecated weight",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "temperature",
+            "javadoc": "@deprecated temperature",
+            "fieldType": "Double"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200127061751",
+    "entityTableName": "paramedical_examination",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "consultation",
+    "applications": "*",
+    "microserviceName": "consultation"
+}
