@@ -236,3 +236,12 @@ dms:
     basicAuth:
        username: ajay.e.s@lxisoft.com   
        password: yadu8giy7b
+smsgateway:
+   uk-url: https://api.txtlocal.com
+   uk-sender: CONSULT
+   in-url: https://api.textlocal.in
+   in-sender: WINMTS
+   credentials:
+      uk-apiKey: X8TXzZ3n8Yc-oPcDvBC0CWo8vNvAZoJKzW5KZrqVsF
+      in-apiKey: LaOs/+NbOtU-qsVX1aJkKJ0SXK4khv3bInFkyvMWdG     
+      
